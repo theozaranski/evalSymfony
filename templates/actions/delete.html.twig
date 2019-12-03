@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Supprimer un Client{% endblock %}
+
+{% block body %}
+    <h1>Supprimer un Client</h1>
+
+    {{ form(formulaire) }}
+
+    <a href="{{ path("Client") }}" class="btn btn-success">OK</a>
+{% endblock %}
